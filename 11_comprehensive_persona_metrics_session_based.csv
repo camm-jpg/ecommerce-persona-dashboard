@@ -1,0 +1,15 @@
+"persona_type","session_length","total_sessions","avg_session_duration","avg_items_viewed","conversion_rate_percent","abandonment_rate_percent"
+Casual Browser,,1649410,0.37,1.2,0.33,99.67
+Casual Browser,Long,14381,5.48,2.2,4.63,95.37
+Casual Browser,Medium,22105,6.94,2.2,5.0,95.0
+Casual Browser,Short,1612924,0.24,1.1,0.23,99.77
+Indecisive Navigator,,12103,30.67,7.7,9.08,90.92
+Indecisive Navigator,Long,9504,35.67,7.8,11.01,88.99
+Indecisive Navigator,Medium,2599,12.38,7.3,2.04,97.96
+Other,,95376,17.81,2.6,6.82,93.18
+Other,Long,48421,24.9,2.4,8.06,91.94
+Other,Medium,44837,10.86,2.5,5.74,94.26
+Other,Short,2118,3.03,7.4,1.13,98.87
+Power Shopper,,4786,84.26,23.5,25.03,74.97
+Power Shopper,Long,4521,88.46,24.0,26.39,73.61
+Power Shopper,Medium,265,12.65,16.0,1.89,98.11
