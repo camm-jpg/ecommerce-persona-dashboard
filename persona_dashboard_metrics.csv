@@ -1,0 +1,11 @@
+﻿persona_type,session_length_bucket,addtocart,transaction,view,total_sessions,avg_session_duration,avg_items_viewed,conversion_rate_percent,abandonment_rate_percent,site_conversion_rate,site_abandonment_rate
+Casual Browser,Long,34848,7180,879832,14381,5.48,2.2,4.63,95.37,0.81,99.19
+Casual Browser,Medium,3504,1318,74826,22105,6.94,2.2,5,95,0.81,99.19
+Casual Browser,Short,22968,3970,3139722,1612924,0.24,1.1,0.23,99.77,0.81,99.19
+Indecisive Navigator,Long,15164,4792,223870,9504,35.67,7.8,11.01,88.99,0.81,99.19
+Indecisive Navigator,Medium,824,130,16100,2599,12.38,7.3,2.04,97.96,0.81,99.19
+Other,Long,32756,14408,595644,48421,24.9,2.4,8.06,91.94,0.81,99.19
+Other,Medium,5850,2188,108448,44837,10.86,2.5,5.74,94.26,0.81,99.19
+Other,Short,490,210,12064,2118,3.03,7.4,1.13,98.87,0.81,99.19
+Power Shopper,Long,22076,10694,274944,4521,88.46,24,26.39,73.61,0.81,99.19
+Power Shopper,Medium,184,24,3174,265,12.65,16,1.89,98.11,0.81,99.19
