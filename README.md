@@ -10,7 +10,7 @@ Here’s a professional, portfolio-ready README template tailored for your e-com
 This project analyzes 1.7M e-commerce sessions to uncover how different shopper personas behave and what drives them to purchase. The interactive Tableau dashboard segments users into three personas—Casual Browser, Indecisive Navigator, and Power Shopper—and visualizes their shopping patterns, drop-off points, and conversion strategies.
 
 ## Dashboard Link
-[View the interactive dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Project Goals
 - identify key behavioral patterns for each persona
