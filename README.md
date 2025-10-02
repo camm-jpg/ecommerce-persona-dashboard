@@ -1,8 +1,4 @@
 # ecommerce-persona-dashboard
-E-Commerce Consumer Behavior Dashboard
-Here’s a professional, portfolio-ready README template tailored for your e-commerce persona Tableau dashboard project. You can copy, edit, and expand as needed for your GitHub repo:
-
-***
 
 # E-Commerce Psychology: Converting Consumer Behavior Into Revenue
 
