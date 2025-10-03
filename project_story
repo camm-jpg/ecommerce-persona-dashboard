@@ -10,9 +10,9 @@ The analysis uses the Kaggle RetailRocket e-commerce dataset, containing nearly 
 
   Persona Segmentation
 Three personas were defined using clustering on session duration, number of items viewed/added, and purchasing or abandonment behavior:
-- **Casual Browser:** Short sessions (often <5 min), low product engagement, low conversion.
-- **Indecisive Navigator:** Medium-to-long sessions, high browsing and carting, but low conversion (high abandonment).
-- **Power Shopper:** Long sessions, high product exploration and cart activity, and the highest conversion rates.
+- Casual Browser: Short sessions (often <5 min), low product engagement, low conversion.
+- Indecisive Navigator: Medium-to-long sessions, high browsing and carting, but low conversion (high abandonment).
+- Power Shopper: Long sessions, high product exploration and cart activity, and the highest conversion rates.
 
 Thresholds for segmentation were set based on quantiles and behavioral clustering, ensuring each persona reflected a distinct, actionable user group.
 
@@ -29,11 +29,9 @@ This suggests that while decision fatigue can hinder some users, high-intent sho
 Dashboard Design Choices
 The dashboard features a modern, soft-pink palette for clear sectioning and a professional, inviting look. The control panel (bottom right) provides accessible metric filters and toggles between persona and site-average views. Persona cards and visual summaries use succinct, jargon-free language, making insights approachable for both technical and business users. The desktop-first layout supports deep analysis and presentation, with interactivity and accessibility prioritized through dropdowns and click-to-filter actions.
 
-**Example Dashboard Screenshot:**  
-![Dashboard Screenshot](dashboard_screenshot.png)
-- **Casual Browsers:** Emphasize quick-add features, limited-time offers, and fast checkout flows to capture fleeting attention.
-- **Indecisive Navigators:** Integrate product comparison tools and personalized recommendations to reduce decision anxiety, as supported by research on comparison tables.
-- *Power Shoppers:* Offer bundling deals, loyalty rewards, and streamlined multi-item checkouts to maximize high-intent purchasing.
+- Casual Browsers: Emphasize quick-add features, limited-time offers, and fast checkout flows to capture fleeting attention.
+- Indecisive Navigators: Integrate product comparison tools and personalized recommendations to reduce decision anxiety, as supported by research on comparison tables.
+- Power Shoppers: Offer bundling deals, loyalty rewards, and streamlined multi-item checkouts to maximize high-intent purchasing.
 
 Tailoring UX and messaging to each persona can improve both conversion rates and customer satisfaction.
 
