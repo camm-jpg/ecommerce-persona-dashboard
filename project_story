@@ -1,0 +1,55 @@
+
+
+# E-Commerce Persona Segmentation: Dashboard Project Write-Up
+
+## Introduction
+This project began with a classic consumer psychology hypothesis: as shoppers view more products, they experience greater cognitive overload, leading to lower conversion rates. This “paradox of choice” is well-documented in behavioral research, where too many options can cause decision paralysis and cart abandonment. However, the analysis revealed a key nuance—while some users do stall out, those with high purchase intent actually view more items and are more likely to convert, challenging the traditional overload narrative.
+
+## Data & Methodology
+The analysis uses the Kaggle RetailRocket e-commerce dataset, containing nearly 2 million anonymized user session records. Data cleaning included filtering incomplete sessions, standardizing timestamps, and grouping behavioral events. Persona segmentation and metric engineering were performed in SQL for transparency and reproducibility. Visualizations were built in Tableau, with the dashboard layout designed in Figma for a clean, branded, and desktop-friendly user experience.
+
+## Persona Segmentation
+Three personas were defined using clustering on session duration, number of items viewed/added, and purchasing or abandonment behavior:
+- **Casual Browser:** Short sessions (often <5 min), low product engagement, low conversion.
+- **Indecisive Navigator:** Medium-to-long sessions, high browsing and carting, but low conversion (high abandonment).
+- **Power Shopper:** Long sessions, high product exploration and cart activity, and the highest conversion rates.
+
+Thresholds for segmentation were set based on quantiles and behavioral clustering, ensuring each persona reflected a distinct, actionable user group.
+
+## Analysis & Key Findings
+The original hypothesis, based on the “paradox of choice” (Iyengar & Lepper, 2000), was that more choices would lead to lower checkout rates. This is supported by studies showing that consumers are less likely to purchase when faced with too many options—for example, the famous jam study found that shoppers were ten times more likely to buy when offered six varieties instead of 24.[1][2]
+
+However, the data revealed a more nuanced reality:
+- **Indecisive Navigators** add many items but rarely check out, supporting the overload hypothesis.
+- **Power Shoppers** browse and add the most items, yet have the highest checkout rates—contradicting a pure overload narrative.
+- **Casual Browsers** almost never purchase, reinforcing that high intent is required for conversion, regardless of choice volume.
+
+This suggests that while decision fatigue can hinder some users, high-intent shoppers overcome cognitive overload and convert at higher rates.
+
+## Dashboard Design Choices
+The dashboard features a modern, soft-pink palette for clear sectioning and a professional, inviting look. The control panel (bottom right) provides accessible metric filters and toggles between persona and site-average views. Persona cards and visual summaries use succinct, jargon-free language, making insights approachable for both technical and business users. The desktop-first layout supports deep analysis and presentation, with interactivity and accessibility prioritized through dropdowns and click-to-filter actions.
+
+**Example Dashboard Screenshot:**  
+![Dashboard Screenshot](Screenshot-2025-10-02-at-
+- **Casual Browsers:** Emphasize quick-add features, limited-time offers, and fast checkout flows to capture fleeting attention.
+- **Indecisive Navigators:** Integrate product comparison tools and personalized recommendations to reduce decision anxiety, as supported by research on comparison tables.
+- **Power Shoppers:** Offer bundling deals, loyalty rewards, and streamlined multi-item checkouts to maximize high-intent purchasing.
+
+Tailoring UX and messaging to each persona can improve both conversion rates and customer satisfaction.
+
+## Challenges & Learnings
+Key challenges included aligning aggregated metrics across dashboard widgets (SUM vs. AVG discrepancies), ensuring intuitive parameter/filter logic, and reconciling theoretical models with real-world high-intent behavior. This project reinforced that actionable analytics require not just segmentation, but ongoing validation against business outcomes and user intent.
+
+## Next Steps
+- Incorporate additional behavioral signals (e.g., device, return visits)
+- Develop predictive models for conversion and real-time interventions
+- Integrate more psychological research on decision-making and digital fatigue
+- Conduct A/B testing to validate which UX changes most effectively reduce abandonment
+
+## References
+- [Kaggle RetailRocket Dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
+- Iyengar, S. S., & Lepper, M. R. (2000). "When choice is demotivating: Can one desire too much of a good thing?" *Journal of Personality and Social Psychology*, 79(6): 995-1006.
+- [Too Many Options? The Effect Of The Paradox Of Choice](https://buildgrowscale.com/paradox-of-choice)
+- [The Paradox of Choice: Why Too Many Options Hurt Conversions](https://cognitive-clicks.com/blog/the-paradox-of-choice/)
+- Paynard, M. (2024). "Cart Abandonment: What We Learned". [Link](https://paynard.com/insights/cart-abandonment-rate)
+- Nielsen Norman Group. (2025). "How Comparison Tables Reduce Decision Anxiety". [Link](https://www.nngroup.com/articles/comparison-tables/)
