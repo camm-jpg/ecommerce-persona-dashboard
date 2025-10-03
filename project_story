@@ -30,7 +30,7 @@ Dashboard Design Choices
 The dashboard features a modern, soft-pink palette for clear sectioning and a professional, inviting look. The control panel (bottom right) provides accessible metric filters and toggles between persona and site-average views. Persona cards and visual summaries use succinct, jargon-free language, making insights approachable for both technical and business users. The desktop-first layout supports deep analysis and presentation, with interactivity and accessibility prioritized through dropdowns and click-to-filter actions.
 
 **Example Dashboard Screenshot:**  
-![Dashboard Screenshot](Screenshot-2025-10-02-at-
+![Dashboard Screenshot](dashboard_screenshot.png)
 - **Casual Browsers:** Emphasize quick-add features, limited-time offers, and fast checkout flows to capture fleeting attention.
 - **Indecisive Navigators:** Integrate product comparison tools and personalized recommendations to reduce decision anxiety, as supported by research on comparison tables.
 - **Power Shoppers:** Offer bundling deals, loyalty rewards, and streamlined multi-item checkouts to maximize high-intent purchasing.
