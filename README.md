@@ -1,10 +1,11 @@
 # ecommerce-persona-dashboard
 
-# E-Commerce Psychology: Converting Consumer Behavior Into Revenue
+# E-Commerce User Behavior & Persona Segmentation: Understanding Decision-Making in Digital Environments
 
 ## Overview
-This project analyzes 1.7M e-commerce sessions to uncover how different shopper personas behave and what drives them to purchase. The interactive Tableau dashboard segments users into three personas—Casual Browser, Indecisive Navigator, and Power Shopper—and visualizes their shopping patterns, drop-off points, and conversion strategies.
+This project analyzes 1.7M e-commerce sessions to understand how different user personas make purchasing decisions under cognitive load. Rather than assuming all users experience "choice overload" equally, the analysis reveals that user intent significantly mediates how choice volume affects behavior—challenging simplified models of consumer decision-making.
 
+*Key finding: While some users (such as Indecisive Navigators) do exhibit choice paralysis, high-intent shoppers (like the Power Shoppers) browse extensively and convert at high rates, which suggests decision-making is a lot more nuanced than traditional choice overload theory predicts.*
 ## Dashboard Link
 [View the interactive dashboard on Tableau Public](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -19,6 +20,27 @@ This project analyzes 1.7M e-commerce sessions to uncover how different shopper 
 - **Processing:** Data cleaned and segmented using SQL (see `queries.sql`)
 - **Personas:** Defined by session length, browsing depth, and purchase patterns
 - **Visualization:** Built in Tableau, with custom funnel and comparison charts
+- **Theoretical grounding:** Behavioral research on the paradox of choice (Iyengar & Lepper, 2000)
+
+## Design Implications
+Understanding persona-specific decision-making barriers can inform ethical UX design:
+  - Casual Browsers: Quick-add features, reduced choice, urgency cues to capture low-intent attention
+
+  - Indecisive Navigators: Comparison tools, personalized recommendations, and simplified checkout reduce decision anxiety
+
+  - Power Shoppers: Bundling, loyalty rewards, streamlined bulk purchasing
+
+  - Design note: Interventions that help Indecisive Navigators may not suit high-intent shoppers, suggesting platforms should offer persona-aware experiences.
+
+## Key Insights
+- **Casual Browsers** drop off early; limiting choices increases engagement.
+- **Indecisive Navigators** add to cart but hesitate at checkout; comparison tools boost confidence.
+- **Power Shoppers** convert at high rates; streamlined checkout and clear pricing are critical.
+**Central Insight:**
+The traditional "paradox of choice" holds true for some user segments but not others. Indecisive Navigators appear to experience decision fatigue, while Power Shoppers demonstrate that high intent enables users to navigate complexity effectively. This suggests user intent, not choice volume alone, predicts purchasing behavior.
+
+## Challenges & Insights
+Theory predicts choice overload should suppress all high-volume browsing, but Power Shoppers browse extensively and convert at high rates. This reveals the importance of intent-based segmentation—choice only "paralyzes" those with low or ambivalent purchase intent.
 
 ## Features
 - **Persona Cards:** Quick summaries of each shopper type and their conversion rates
@@ -38,10 +60,6 @@ This project analyzes 1.7M e-commerce sessions to uncover how different shopper 
 - `data/` — Source and processed data files
 - `README.md` — Project documentation (this file)
 
-## Key Insights
-- **Casual Browsers** drop off early; limiting choices increases engagement.
-- **Indecisive Navigators** add to cart but hesitate at checkout; comparison tools boost confidence.
-- **Power Shoppers** convert at high rates; streamlined checkout and clear pricing are critical.
 
 ## Tools Used
 - Tableau Public
