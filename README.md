@@ -2,12 +2,13 @@
 
 # E-Commerce User Behavior & Persona Segmentation: Understanding Decision-Making in Digital Environments
 
+## Dashboard Link
+[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Overview
 This project analyzes 1.7M e-commerce sessions to understand how different user personas make purchasing decisions under cognitive load. Rather than assuming all users experience "choice overload" equally, the analysis reveals that user intent significantly mediates how choice volume affects behavior—challenging simplified models of consumer decision-making.
 
 *Key finding: While some users (such as Indecisive Navigators) do exhibit choice paralysis, high-intent shoppers (like the Power Shoppers) browse extensively and convert at high rates, which suggests decision-making is a lot more nuanced than traditional choice overload theory predicts.*
-## Dashboard Link
-[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Why This Matters
 E-commerce platforms often apply *one-size-fits-all* UX solutions. This analysis shows that user intent is the critical variable—the same design choice (e.g., showing 50 products) may help Power Shoppers and harm Indecisive Navigators. Understanding these differences **enables** more transparent, **user-centered design**.
