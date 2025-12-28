@@ -14,10 +14,13 @@ This project analyzes 1.7M e-commerce sessions to understand how different user 
 E-commerce platforms often apply *one-size-fits-all* UX solutions. This analysis shows that user intent is the critical variable—the same design choice (e.g., showing 50 products) may help Power Shoppers and harm Indecisive Navigators. Understanding these differences **enables** more transparent, **user-centered design**.
 
 ## Project Goals
-  - identify key behavioral patterns for each persona
-  - visualize where users drop off in the shopping funnel
-  - recommend actionable strategies to increase conversion rates for each persona
-  - provide a user-friendly, interactive dashboard for anyone to view!
+  - **Challenge the "one-size-fits-all" UX approach** — Show that the same design doesn't work for every shopper
+
+  - **Understand what each shopper type actually needs** — Map their specific barriers and behaviors
+
+  - **Design for real people, not averages** — Recommend changes tailored to how different shoppers actually decide
+
+  - **Make insights accessible** — Build a dashboard so teams can explore and act on these findings
 
 ## Data & Methodology
   - **Source:** [Kaggle E-Commerce Dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
