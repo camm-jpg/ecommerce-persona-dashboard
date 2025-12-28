@@ -9,6 +9,9 @@ This project analyzes 1.7M e-commerce sessions to understand how different user 
 ## Dashboard Link
 [View the interactive dashboard on Tableau Public](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+## Why This Matters
+E-commerce platforms often apply *one-size-fits-all* UX solutions. This analysis shows that user intent is the critical variable—the same design choice (e.g., showing 50 products) may help Power Shoppers and harm Indecisive Navigators. Understanding these differences **enables** more transparent, **user-centered design**.
+
 ## Project Goals
 - identify key behavioral patterns for each persona
 - visualize where users drop off in the shopping funnel
@@ -41,6 +44,7 @@ The traditional "paradox of choice" holds true for some user segments but not ot
 
 ## Challenges & Insights
 Theory predicts choice overload should suppress all high-volume browsing, but Power Shoppers browse extensively and convert at high rates. This reveals the importance of intent-based segmentation—choice only "paralyzes" those with low or ambivalent purchase intent.
+
 
 ## Features
 - **Persona Cards:** Quick summaries of each shopper type and their conversion rates
