@@ -34,7 +34,7 @@ Understanding persona-specific decision-making barriers can inform ethical UX de
 
   - **Power Shoppers:** Bundling, loyalty rewards, streamlined bulk purchasing
 
-  - Design note: Interventions that help Indecisive Navigators may not suit high-intent shoppers like Power Shoppers, suggesting platforms should offer persona-aware experiences.
+*Design note: Interventions that help Indecisive Navigators may not suit high-intent shoppers like Power Shoppers, suggesting platforms should offer persona-aware experiences.*
 
 ## Key Insights
   - **Casual Browsers** drop off early; limiting choices increases engagement.
