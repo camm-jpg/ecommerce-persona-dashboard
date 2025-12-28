@@ -3,7 +3,7 @@
 # E-Commerce User Behavior & Persona Segmentation: Understanding Decision-Making in Digital Environments
 
 ## Dashboard Link
-[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[view the interactive dashboard on Tableau Public!](https://public.tableau.com/views/E-CommerceConvertingConsumerBehavior/newdash?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Overview
 This project analyzes 1.7M e-commerce sessions to understand how different user personas make purchasing decisions under cognitive load. Rather than assuming all users experience "choice overload" equally, the analysis reveals that user intent significantly mediates how choice volume affects behavior—challenging simplified models of consumer decision-making.
