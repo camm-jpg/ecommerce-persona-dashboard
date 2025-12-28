@@ -14,32 +14,32 @@ This project analyzes 1.7M e-commerce sessions to understand how different user 
 E-commerce platforms often apply *one-size-fits-all* UX solutions. This analysis shows that user intent is the critical variable—the same design choice (e.g., showing 50 products) may help Power Shoppers and harm Indecisive Navigators. Understanding these differences **enables** more transparent, **user-centered design**.
 
 ## Project Goals
-- identify key behavioral patterns for each persona
-- visualize where users drop off in the shopping funnel
-- recommend actionable strategies to increase conversion rates for each persona
-- provide a user-friendly, interactive dashboard for anyone to view!
+  - identify key behavioral patterns for each persona
+  - visualize where users drop off in the shopping funnel
+  - recommend actionable strategies to increase conversion rates for each persona
+  - provide a user-friendly, interactive dashboard for anyone to view!
 
 ## Data & Methodology
-- **Source:** [Kaggle E-Commerce Dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
-- **Processing:** Data cleaned and segmented using SQL (see `queries.sql`)
-- **Personas:** Defined by session length, browsing depth, and purchase patterns
-- **Visualization:** Built in Tableau, with custom funnel and comparison charts
-- **Theoretical grounding:** Behavioral research on the paradox of choice (Iyengar & Lepper, 2000)
+  - **Source:** [Kaggle E-Commerce Dataset](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
+  - **Processing:** Data cleaned and segmented using SQL (see `queries.sql`)
+  - **Personas:** Defined by session length, browsing depth, and purchase patterns
+  - **Visualization:** Built in Tableau, with custom funnel and comparison charts
+  - **Theoretical grounding:** Behavioral research on the paradox of choice (Iyengar & Lepper, 2000)
 
 ## Design Implications
 Understanding persona-specific decision-making barriers can inform ethical UX design:
-  - Casual Browsers: Quick-add features, reduced choice, urgency cues to capture low-intent attention
+  - **Casual Browsers:** Quick-add features, reduced choice, urgency cues to capture low-intent attention
 
-  - Indecisive Navigators: Comparison tools, personalized recommendations, and simplified checkout reduce decision anxiety
+  - **Indecisive Navigators:** Comparison tools, personalized recommendations, and simplified checkout reduce decision anxiety
 
-  - Power Shoppers: Bundling, loyalty rewards, streamlined bulk purchasing
+  - **Power Shoppers:** Bundling, loyalty rewards, streamlined bulk purchasing
 
-  - Design note: Interventions that help Indecisive Navigators may not suit high-intent shoppers, suggesting platforms should offer persona-aware experiences.
+  - Design note: Interventions that help Indecisive Navigators may not suit high-intent shoppers like Power Shoppers, suggesting platforms should offer persona-aware experiences.
 
 ## Key Insights
-- **Casual Browsers** drop off early; limiting choices increases engagement.
-- **Indecisive Navigators** add to cart but hesitate at checkout; comparison tools boost confidence.
-- **Power Shoppers** convert at high rates; streamlined checkout and clear pricing are critical.
+  - **Casual Browsers** drop off early; limiting choices increases engagement.
+  - **Indecisive Navigators** add to cart but hesitate at checkout; comparison tools boost confidence.
+  - **Power Shoppers** convert at high rates; streamlined checkout and clear pricing are critical.
 **Central Insight:**
 The traditional "paradox of choice" holds true for some user segments but not others. Indecisive Navigators appear to experience decision fatigue, while Power Shoppers demonstrate that high intent enables users to navigate complexity effectively. This suggests user intent, not choice volume alone, predicts purchasing behavior.
 
